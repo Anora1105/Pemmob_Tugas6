@@ -1,17 +1,22 @@
-# h1d023005_tugas6
+# Ariza Nola Rufiana
+# H1D023005
+# Shift C
 
-A new Flutter project.
+## Alur *Passing Data*
+1. Pengguna mengisi form pada **FormDataPage** (`form_data.dart`).
+2. Saat tombol **Simpan** ditekan dan validasi lolos, aplikasi melakukan navigasi:
+   ```dart
+   Navigator.push(
+     context,
+     MaterialPageRoute(
+       builder: (_) => TampilDataPage(
+         nama: nama,
+         nim: nim,
+         tahunLahir: tahun,
+       ),
+     ),
+   );
 
-## Getting Started
+  <img width="462" height="978" alt="Input Data" src="https://github.com/user-attachments/assets/11b9c0fd-fa59-413f-877c-eeda0f9f75ef" />
+  <img width="476" height="924" alt="Tampil Data" src="https://github.com/user-attachments/assets/d00bfb57-e34b-45e1-a66f-378b9ff7231c" />
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Pemmob_Tugas6
